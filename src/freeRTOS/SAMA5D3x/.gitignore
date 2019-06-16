@@ -1,5 +1,6 @@
 Debug/
 settings/
+sram/
 Backup*
 *.ewt
 *.dep
