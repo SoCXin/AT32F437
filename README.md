@@ -1,20 +1,30 @@
-﻿# [SAMA5D](https://github.com/sochub/SAMA5D)
+﻿# [APT32F172](https://github.com/SoCXin/APT32F172)
 
-[![sites](SoC/qitas.png)](http://www.qitas.cn) 
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### 厂商：[microchip](https://github.com/sochub/microchip) 
-#### 架构：[cortex A5](https://github.com/sochub/CA5)
+#### [Vendor](https://github.com/SoCXin/Vendor) ：[APT](http://www.aptchip.com/)
+#### [Core](https://github.com/SoCXin/RISC)：[C-Sky](https://github.com/SoCXin/RISC)
+#### [Level](https://github.com/SoCXin/Level) ：20 MHz * 0.9 DMIPS/MHz
 
-### [SAMA5D描述](https://github.com/sochub/SAMA5D/wiki) 
+## [简介](https://github.com/SoCXin/APT32F172/wiki)
 
-The SAMA5D series are high-performance, ultra-low power ARM Cortex-A5 core based MPU devices. They support multiple memories, including DDR3, LPDDR3, and QSPI Flash.  A rich set of peripherals, user interfaces, and robust security features simplify the design for control panels/HMI, secure IoT gateways, connectivity, barcode scanners, printers and POS terminal applications.  The low-power features and small packages are ideal for wearables and other battery-operated consumer devices.  A wide range of third-party offerings complements our development kits and software support.
+[APT32F172](https://github.com/SoCXin/APT32F172)基于 C-Sky Microsystems Co., Ltd 开发的 32 位单片机核的高性能低成本单片机。APT32F172 单片机面向的应用为变频控制，马达驱动，功率检测等应用。
 
-[![sites](SoC/SAMA5D.jpg)](https://www.microchip.com/design-centers/32-bit-mpus/microprocessors/SAMA5D)
+[![sites](docs/APT32F172.png)](http://www.aptchip.com/Article/Equipment.aspx?cid=67&nid=25)
 
-### [资源组成](https://github.com/sochub/SAMA5D)
+#### 关键特性
 
-* [文档](docs/) 
-* [资源](src/) 
-    * [freeRTOS](src/freeRTOS) 
+* 8 个大电流驱动的管脚(每个管脚最大 120mA)
+* 多达 5 个独立模拟比较器，2 个运算放大器
 
-###  [SoC资源平台](http://www.qitas.cn)
+### [资源收录](https://github.com/SoCXin/APT32F172)
+
+* [参考文档](docs/)
+* [参考资源](src/)
+* [参考工程](project/)
+
+### [选型建议](https://github.com/SoCXin)
+
+[APT32F172](https://github.com/SoCXin/APT32F172)
+
+###  [www.SoC.xin(芯)](http://www.SoC.Xin)

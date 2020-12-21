@@ -1,0 +1,70 @@
+{
+    "type":"MCU",
+    "name":"APT32F172",
+    "tags": ["CK802"],
+    "series":["APT32F172K8T6"],
+    "description":"APT 32bit C-Sky MCU",
+    "peripheral": ["ADC","TIM","PWM"],
+    "package":["LQFP32","QFN32","SOP28","SSOP24"],
+    "encryption": ["UID-96"],
+    "Core": {
+        "num": 1,
+        "architecture":"CK802",
+        "Freq":20
+    },
+    "APT32F172K8T6": {
+        "SRAM":128,
+        "Flash":2048,
+        "peripheral": ["ADC","TIM","PWM"],
+        "GPIO":28,
+        "price":2.8
+    },
+    "Level": {
+        "main":1,
+        "sub":12,
+        "price":0.7
+    },
+    "GPIO": {
+        "num": [13,17],
+        "irq": 4
+    },
+    "ADC": {
+        "num": 1,
+        "channel": 6,
+        "resolution": 12,
+        "rate": 1024
+    },
+    "TIM": {
+        "resolution":[8,8,8,8,16]
+    },
+    "PWM": {
+        "num": 4,
+        "resolution": 8,
+        "rate": 256
+    },
+    "CLK": {
+        "HSE": [1000,16000],
+        "HSI": [16000],
+        "LSI": [32],
+        "PLL": [16000,16000],
+        "DIV": [1,128],
+        "accuracy": 0.02
+    },
+    "PWR": {
+        "VDD": [3000,5500],
+        "PVD": [1820,1810],
+        "IDD": [2.21,14.31],
+        "Imax": 120
+    },
+    "EMC": {
+        "EFT": [2000,24000],
+        "ESD": [31]
+    },
+    "manufacturer": {
+        "vendor":"APT",
+        "url": "http://www.aptchip.com"
+    },
+    "url":"http://www.SoC.xin/APT32F172",
+    "repo":"https://github.com/SoCXin/APT32F172",
+    "version":"1.0.0"
+}
