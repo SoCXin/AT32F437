@@ -1,0 +1,37 @@
+{
+    "type":"MCU",
+    "name":"AT32F437",
+    "title": "arterytek AT32F437 MCU",
+    "description":"arterytek ADC MCU",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"Cortex-M4",
+        "Fmax":288,
+        "DMIPS": 160,
+        "CoreMark": 240
+    },
+    "manufacturer": {
+        "vendor":"arterytek",
+        "homepage":"https://www.arterytek.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/AT32F437.git"
+    },
+    "version":"1.0.0",
+    "series":["AT32F437","AT32F435"],
+    "package":["LQFP-144","LQFP-100","LQFP-64"],
+    "peripheral": ["CAN","ADC","USART","SPI","I2C"],
+    "temp": [-40,105],
+    "volt": [2.4,3.6],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M4",
+        "arterytek",
+        "CAN","ADC","I2C","SPI","USART"
+    ]
+}
+
